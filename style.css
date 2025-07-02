@@ -20,7 +20,7 @@ main {
   justify-content: center;
 }
 .container {
-  padding: 24px;
+  padding: 40px 24px;
   background-color: var(--background-card);
   border-radius: 12px;
   display: flex;
