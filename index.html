@@ -3,32 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Frontend Mentor | Blog preview card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Social links profile</title>
   </head>
   <body>
     <main>
       <div class="container">
-        <h1 class="visually-hidden">Blog preview card</h1>
-        <div class="image">
-          <img src="./assets/images/illustration-article.svg" alt="" />
-        </div>
-        <div class="content">
-          <p class="btn">Learning</p>
-          <p class="datetime">Published 21 Dec 2023</p>
-          <h2>HTML & CSS foundations</h2>
-          <p class="des">
-            These languages are the backbone of every website, defining
-            structure, content, and presentation.
-          </p>
-        </div>
-        <div class="info">
-          <div class="avatar">
-            <img src="./assets/images/image-avatar.webp" alt="avatar" />
+        <section class="profile">
+          <div class="image">
+            <img src="./assets/images/avatar-jessica.jpeg" alt="Jessica Randall's avatar" />
           </div>
-          <p class="name">Grey Hooper</p>
-        </div>
+          <div class="info">
+            <h1>Jessica Randall</h1>
+            <p>London, United Kingdom</p>
+          </div>
+          <p class="quote">"Front-end developer and avid reader."</p>
+        </section>
+        <section class="social-link">
+          <div class="sub-box">Github</div>
+          <div class="sub-box">Frontend Mentor</div>
+          <div class="sub-box">Linkedin</div>
+          <div class="sub-box">Twitter</div>
+          <div class="sub-box">Instagram</div>
+        </section>
       </div>
+      
     </main>
   </body>
 </html>
